@@ -1,0 +1,18 @@
+.canvas-container {
+  height: 100vh;
+  position: relative;
+}
+
+.interaction-display {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  max-width: 300px;
+  max-height: 300px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 6px 23px -1px rgba(0, 0, 0, 0.68);
+  box-shadow: 5px 6px 23px -1px rgba(0, 0, 0, 0.68);
+  overflow: auto;
+  z-index: 1;
+}
